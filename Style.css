@@ -52,6 +52,7 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 100vh;
 }
 
 .list-headcontainer1{
@@ -306,7 +307,7 @@ color: green;
 
 .ul-section3-21{
     position: absolute;
-    top: 1480px;
+    top: 1890px;
     left: 800px;
     display: flex;
     flex-direction: row;
@@ -323,12 +324,14 @@ color: green;
     position: absolute;
     display: flex;
     flex-direction: column;
-    top: 1180px;
+    top: 1600px;
     left: 1200px;
 }
 
 .section4-1{
     grid-area: section4-1;
+    background-image: url(https://s.pinimg.com/webapp/shop-de8ddf10.png);
+    background-size: 100%;
 }
 
 .section4-2{
@@ -375,12 +378,123 @@ color: green;
 
 .section5-1{
     grid-area: section5-1;
-    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://images.ctfassets.net/2pyx8rwuvz6x/3agrFy0rGxd9Vg2eHdKHH/ea15edb209ebd0028b2dda6d64fc93b6/post-107-assets-1-en-us.jpg?fm=webp&q=85);
+    background-size: 200%;
+    background-repeat: no-repeat;
+}
+
+#tittle-section5-1{
+    color: white;
+    align-self: center;
+    width: 400px;
+    font-size: 70px;
+    font-weight: 600;
+    text-align: start;
 }
 
 .section5-2{
     grid-area: section5-2;
-    background-color: aqua;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://images.ctfassets.net/2pyx8rwuvz6x/3agrFy0rGxd9Vg2eHdKHH/ea15edb209ebd0028b2dda6d64fc93b6/post-107-assets-1-en-us.jpg?fm=webp&q=85);
+    background-position: 20px;
+}
+
+.ul-items-section5-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    font-family: 'Roboto';
+    background-color: white;
+    border-radius: 30px;
+    padding: 2px;
+}
+.inputs li {
+    margin-bottom: 15px;
+}
+
+.inputs input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.inputs label {
+    margin-bottom: 5px;
+    display: block;
+    color: #333;
+    font-size: 14px;
+}
+
+#Continuar{
+    background-color: red;
+    color: #f7f7f7;
+    margin: 20;
+    border-radius: 20px;
+    font-family: 'Roboto';
+    padding: 10px 50px 10px 50px;
+}
+
+#Facebook{
+    background-color: #4895fa;
+    color: #ffffff;
+    border-radius: 20px;
+    font-family: 'Roboto';
+    padding: 10px 50px 10px 50px;
+}
+
+#Google{
+    background-color: rgb(244, 243, 243);
+    color: #000000;
+    border-radius: 20px;
+    font-family: 'Roboto';
+    padding: 10px 50px 10px 50px;
+    border-color: #000000;
+    border-width: thin;
+}
+
+.Condiciones{
+    font-size: 11px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.Recopilation{
+    font-size: 11px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.Member{
+    font-size: 11px;
+    font-weight: normal;
+    text-align: center;
+}
+
+#Logo-face{
+    width: 20px;
+    position: relative;
+    bottom: 35px;
+    left: 10px;
+}
+
+#Logo-google{
+    width: 20px;
+    position: relative;
+    right: 250px;
+    top: 5px;
+}
+
+#tittle-section5-2{
+    font-size: 32px;
+    font-weight: 600
 }
 
 
